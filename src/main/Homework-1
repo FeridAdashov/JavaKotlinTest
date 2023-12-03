@@ -1,0 +1,30 @@
+*     Positive/Negative/Zero:
+*           Write a program that takes an integer input and prints whether it's positive, negative, or zero.
+*
+*     Even/Odd:
+*           Create a program that checks if a given number is even or odd.
+*
+*     Leap Year:
+*           Implement a program to determine if a given year is a leap year.
+*
+*     Largest among three:
+*           Write a program that takes three numbers as input and prints the largest one.
+*
+*     Grading System:
+*           Create a program that takes a student's score as input and prints their grade (A, B, C, D, or F).
+*
+*     Palindrome Check:
+*           Create a program to check if a given string is a palindrome.
+*
+*     Prime Number:
+*           Implement a program to determine if a given number is prime.
+*
+*     Check symbol is exist in string:
+*           Take a string and symbol from user and check that symbol exists in string.
+*
+*     Sözün ahəng qanununa tabi olup-olmadığını yoxlayın
+*
+*     Quadratic Equation Roots:
+*           Write a Kotlin program that takes coefficients of a quadratic equation and prints its roots.
+*
+*     Sum of digits of number (10 <= number <= 99)
