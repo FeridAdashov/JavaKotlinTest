@@ -1,5 +1,5 @@
 *   Istifadəçidən sətr tipli dəyər alın və içərisindəki söz sayını dövr istifadə edərək tapın.
-*       Sətr uzunluğunu "length" parametri ilə götürə bilərsiniz
+       Sətr uzunluğunu "length" parametri ilə götürə bilərsiniz
 
 
 *   Vurma cədvəlini alt-alta çap edən proqram tərtib edin

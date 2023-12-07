@@ -1,0 +1,140 @@
+———————————————————————————————
+1. MONTH
+———————————————————————————————
+
+
+### Week 1: Basics of Kotlin
+   - Overview of Kotlin and its features
+   - Setting up Kotlin in your development environment
+   - Variables and data types
+   - Control flow (if statements, loops)
+   - Functions and lambdas
+
+### Week 2: Advanced Kotlin Concepts
+   - Classes and objects
+   - Inheritance and interfaces
+   - Extension functions
+   - Data classes and their benefits
+   - Working with lists, sets, and maps
+   - Higher-order functions and functional programming concepts
+
+### Week 3: Asynchronous Programming in Kotlin
+   - Introduction to coroutines
+   - Launching coroutines and basic suspending functions
+   - Concurrent programming with coroutines
+   - Asynchronous programming patterns
+
+### Week 4: Fill the empty spaces and practice 1 month program
+
+
+
+
+———————————————————————————————
+2. MONTH
+———————————————————————————————
+
+
+### Week 1: Setup Android Studio
+  - Introduction to Android Studio
+  - Download and install Android Studio
+  - Create your first Android app
+  - Run your first app on the Android Emulator
+  - How to connect your Android device
+
+### Week 2: Jetpack Compose Basics
+  - Introduction to XML
+  - Introduction to elements, attributes, and namespaces
+  - Basics of Android XML layouts
+  - Common layout elements: LinearLayout, RelativeLayout, ConstraintLayout
+
+### Week 3:
+  - Using XML to define TextView, EditText, Button, and other UI components
+  - Styling XML layouts with themes and styles
+
+### Week 4:
+  - Implementing ListView with XML
+  - Introduction to RecyclerView and XML-based item layouts
+
+
+
+
+———————————————————————————————
+3. MONTH
+———————————————————————————————
+
+### Week 1:
+  - Fragments and activities
+  - Lifecycle
+
+### Week 2:
+  - Navigation
+  - Bottom bar and navigation
+
+### Week 3:
+  - Data binding
+  - VIewModel
+
+### Week 4:
+  - MVVM
+  - Singleton
+  - Builder pattern
+
+
+
+
+———————————————————————————————
+4. MONTH
+———————————————————————————————
+
+
+### Week 1:
+  - Understand Room and SharedPreferences for local data storage.
+  - Implement Room database for your app.
+
+### Week 2:
+  - Flows
+  - LiveData
+  - Flows and Room
+
+### Week 3:
+  - Retrofit for making network requests.
+  - Integrate Retrofit into your app to fetch data from an API.
+
+### Week 4:
+  - Understand the basics of dependency injection.
+  - Integrate Hilt for Dependency injection(DI) in your app.
+  - Dependency Injection and Room
+
+
+
+
+———————————————————————————————
+5. MONTH
+———————————————————————————————
+
+
+### Week 1: Jetpack Compose Basics
+  - Intro to Jetpack Compose
+  - Create simple UI layouts using Text, Image, Button.
+  - Column, Row
+  - Styling components
+
+### Week 2:
+  - State management, ViewModel and LiveData for handling UI-related data.
+  - Implement ViewModel and LiveData in compose app.
+
+### Week 3:
+  - Implementing navigation in your Compose app
+  - Creating navigation flows between screens
+
+### Week 4:
+  - Explore LazyColumn and LazyRow for creating dynamic lists and grids.
+  - Implement complex list views with various item types.
+
+
+———————————————————————————————
+6. MONTH
+———————————————————————————————
+
+  - App architecture
+  - Example app
