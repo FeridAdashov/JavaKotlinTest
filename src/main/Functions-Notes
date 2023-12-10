@@ -1,0 +1,15 @@
+What is the purpose of the infix keyword in Kotlin, and when would you use it in function declarations?
+ The infix keyword is used to declare infix functions, allowing you to call them using a more natural, infix notation. These functions must have a single parameter.
+
+ How does Kotlin support default parameter values in functions, and why is it beneficial?
+  Kotlin allows you to specify default values for function parameters, reducing the need for method overloading. This feature makes functions more flexible and concise.
+
+How does Kotlin handle variable-arity (varargs) functions, and how do you call them?
+ Kotlin allows you to define functions with a variable number of arguments using the vararg keyword. You can call such functions with a variable number of arguments, and they are passed as an array.
+
+How does Kotlin support function overloading, and what are the considerations when defining overloaded functions?
+ Kotlin allows function overloading based on the number or types of parameters. When defining overloaded functions, it's important to consider naming conventions, parameter types, and default values to ensure clarity and maintainability.
+
+
+Bu bloga göz atın keçdiklərimizı uyğun maraqlı bir şeylər tapa bilərsiz
+ https://medium.com/codex/do-you-follow-these-kotlin-best-practices-d7e68ed58150

@@ -1,0 +1,12 @@
+Write a Kotlin method to find the smallest number among three numbers.
+
+Write a Kotlin method to find the smallest number among multiple numbers (varargs).
+
+Write a Kotlin single expression method to compute the average of multiple numbers (varargs, single expression function)
+
+Write function: set valid user password.
+ Valid password must contain at least 1 capital character, 1 special symbol (_, +, ?, ., @)
+ and length have to be at least 8.
+ You should call this function on main function and give user 3 mistake chance.
+ If he(she) made mistakes more than 3 print "Failure" and quit
+ If success print "Password successfully set" and quit
