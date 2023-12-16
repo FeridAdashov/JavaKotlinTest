@@ -1,0 +1,29 @@
+Simple Class:
+Create a class called Person with properties name (String) and age (Int). Add a method to print the person's details. Instantiate the class and test the method with different instances.
+
+Constructor Overloading:
+Expand the Person class to include secondary constructors. Create instances of the class using both the primary and secondary constructors.
+
+Inheritance:
+Define a base class Shape with properties name and color. Create two subclasses, Circle and Square, with additional properties specific to each shape. Test the inheritance hierarchy by creating instances of each class.
+
+Data Class:
+Refactor the Person class into a data class. Test the built-in functions generated for data classes, such as toString, equals, and hashCode.
+
+Companion Object:
+Add a companion object to the Person class with a function createRandomPerson that generates a person with a random name and age. Call the companion function to create instances.
+
+Nullable Properties:
+Modify the Person class to make the age property nullable. Update the print method to handle null values gracefully.
+
+Extension Function:
+Create an extension function for the String class called abbreviate that shortens a string to a specified length, adding an ellipsis if the string is truncated. Test the extension function with different strings.
+
+Interface Implementation:
+Define an interface called Drawable with a method draw. Implement this interface in the Circle and Square classes. Create instances of these classes and call the draw method.
+
+Sealed Class:
+Introduce a sealed class called Result with two subclasses, Success and Failure. Use this class to model the result of a function that can either succeed or fail. Write a function that returns an instance of Result and handle both cases.
+
+Object Declaration:
+Create an object declaration called Logger with a function log that prints a log message. Use this object to log messages from different parts of your application.

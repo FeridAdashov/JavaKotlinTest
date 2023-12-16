@@ -1,0 +1,30 @@
+fun calculate(x: Int, f: (Int) -> Int): String {
+    return "Result = ${f(x)}"
+}
+
+fun main(args: Array<String>) {
+
+    val input = readln().toInt() // 3
+
+    val square = calculate(input) {
+        return@calculate it * it
+    }
+
+    val cubic = calculate(input) {
+        return@calculate it * it * it
+    }
+
+    println("square: $square") // square: Result = 9
+    println("cubic: $cubic")   // cubic: Result = 27
+
+    /**    ----------------------------    */
+
+    val textMultiple = { text: String, multiple: Int, separator: Char ->
+        var s = ""
+        repeat(multiple) { s += text + separator }
+
+        s.trimEnd(',')
+    }
+
+    println(textMultiple("Hello", 5, ',')) // Hello,Hello,Hello,Hello,Hello
+}
