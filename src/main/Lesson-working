@@ -1,0 +1,86 @@
+class Person(var name: String) {
+    var age: Int = 0
+        get() {
+            return field
+        }
+        set(x) {
+            field = x
+        }
+
+    fun funOne() = println("One")
+}
+
+fun Person.myPrint() = println("MyPrint:   ${this.age}  ------  ${this.name}")
+
+fun testFun(p: Person) {
+    println("testFun:   ${p.age}  ------  ${p.name}")
+}
+
+
+private var setterVisibility: String = "abc"
+    private set
+//     get
+
+
+open class Outer {
+    private val a = 1
+    protected open val b = 2
+    internal open val c = 3
+    val d = 4  // public by default
+
+    protected class Nested {
+        public val e: Int = 5
+    }
+}
+
+class Subclass : Outer() {
+    // an is not visible
+    // b, c and d are visible
+    // Nested and e are visible
+
+    val mVal = 78
+
+    fun mFun() = println(b)
+
+    override val c = 7   // 'c' is internal
+}
+
+
+abstract class Car(val name: String) {
+    fun printName() = println(name)
+
+    abstract val l: Int
+    abstract fun countTeker(): Int
+}
+
+class Mercedes(name: String, color: Int) : Car(name) {
+    override var l: Int = 89
+
+    override fun countTeker() = 4
+}
+
+class Kia(name: String, type: Int, override val l: Int) : Car(name) {
+    override fun countTeker(): Int = 6
+}
+
+
+fun main(args: Array<String>) {
+    val mercedes = Mercedes("SSDSadasd", 45)
+    val kia = Kia("SSDSadasd", 45, 555)
+
+    println(mercedes.countTeker())
+    println(kia.countTeker())
+}
+
+
+enum class Shape(val text: String) {
+    Square("Square class"),
+    Rectangle("Rectangle class"),
+}
+
+fun area(c: Shape, p: Int): Int {
+    return when (c) {
+        Shape.Square -> p * p
+        Shape.Rectangle -> p * p * p
+    }
+}
