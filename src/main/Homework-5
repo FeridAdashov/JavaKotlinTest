@@ -1,0 +1,9 @@
+Həftənin günlərini təmsil etmək üçün DayOfWeek adlı ENUM sinfi yaradın.
+ Şənbə və Bazar günləri üçün TRUE, digər günlər üçün isə FALSE dəyər qaytaran isWeekend adlı metod əlavə edin.
+ DayOfWeek parametrini götürən və həftə sonu və ya iş günü olmasını çap edən printDayInfo adlı funksiyanı extension olaraq yaradın.
+
+
+CommonCardSystem adlı classə abstract yaradın
+ Daxilində name parametri və printName() funksiyası
+ Visa və Master adlı iki child class yuxarıdakı iki özəlliyi məcbur override etsin.
+ name parametrinə çöldən əl çatmasın. Məsələn val v = Visa(), v.name yazdıqda xəta versin
