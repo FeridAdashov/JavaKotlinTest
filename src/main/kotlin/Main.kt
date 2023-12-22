@@ -1,76 +1,35 @@
 
+import data.api.RetrofitClient
+import data.mappers.MainMapper
+import data.repositories.MainRepositoryImpl
+import domain.interactors.MainInteractor
+import kotlinx.coroutines.runBlocking
+import ui.viewModel.MainViewModel
 
 
-/**
- * Homework 2
- * */
-fun table() {
-    for (i in 1..9) {
-        for (j in 1..9) {
-            println("$i * $j = ${i * j}")
-        }
-        println()
+fun main() = runBlocking {
+
+    val retrofitHttpClient = RetrofitClient.makeRetrofitService()
+    val mainMapper = MainMapper()
+    val repositoryImpl = MainRepositoryImpl(retrofitHttpClient, mainMapper)
+    val interactor = MainInteractor(repositoryImpl)
+    val viewModel = MainViewModel(interactor)
+
+    var f = true
+
+//    CoroutineScope(Dispatchers.IO).launch {
+//        val data = viewModel.f()
+//
+//        println(data)
+//
+//        f = false
+//    }
+
+
+    repeat(50000) { // launch a lot of coroutines
+        Thread {
+            Thread.sleep(1000L)
+            print(".")
+        }.start()
     }
-}
-
-
-/**
- * Homework 3
- * */
-fun sumOfNumbersInText() {
-    val text = readln()
-    val words = text.split(" ")
-    var sum = 0.0
-
-    words.forEach {
-        val number = it.toDoubleOrNull()
-        if (number != null)
-            sum += number
-    }
-
-    println("Sum: $sum")
-}
-
-/**
- * Homework 4
- * */
-fun calculator() {
-    var command = ""
-
-    while (command.uppercase() != "Q") {
-        print("Number1: ")
-
-        val number1 = readln().toDouble()
-
-        print("Number2: ")
-
-        val number2 = readln().toDouble()
-
-        print("Operation: ")
-
-        val operation = readln()[0]
-
-        val result = when (operation) {
-            '+' -> number1 + number2
-            '-' -> number1 - number2
-            '*' -> number1 * number2
-            '/' -> number1 / number2
-            else -> {
-                println("Wrong operation")
-                null
-            }
-        }
-
-        if (result != null)
-            println("$number1 $operation $number2 = $result \n")
-
-        print("Command(enter Q for quit, any other character to continue): ")
-
-        command = readln()
-    }
-}
-
-
-fun main(args: Array<String>) {
-
 }
