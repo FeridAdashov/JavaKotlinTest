@@ -1,7 +1,7 @@
 package ui.viewModel
 
 
-import com.legalist.userapp.data.Constants
+import data.Constants
 import domain.entity.RequestResult
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers

@@ -1,4 +1,4 @@
-package com.legalist.userapp.data
+package data
 
 import java.net.HttpURLConnection
 

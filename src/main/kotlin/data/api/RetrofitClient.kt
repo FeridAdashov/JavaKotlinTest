@@ -2,7 +2,7 @@ package data.api
 
 import com.google.gson.Gson
 import com.google.gson.GsonBuilder
-import com.legalist.userapp.data.Constants
+import data.Constants
 import data.interceptors.HeadersInterceptor
 import okhttp3.Dispatcher
 import okhttp3.OkHttpClient

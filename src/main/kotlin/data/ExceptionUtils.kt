@@ -1,6 +1,5 @@
 package data
 
-import com.legalist.userapp.data.Constants
 import retrofit2.HttpException
 import java.net.ConnectException
 import java.net.SocketException
